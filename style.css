@@ -1,0 +1,256 @@
+ :root {
+       --gold-theme: #e9c496;
+       --soft-bg: #fdf2e3;
+       --text-color: #5d4037;
+   }
+
+   /* body {
+       font-family: 'Hanuman', serif;
+       background-color: var(--soft-bg);
+       color: var(--text-color);
+       
+   } */
+  body {
+      font-family: 'Hanuman', serif;
+      /* background-color: var(--soft-bg); */
+      color: var(--text-color);
+      background-image: url("images/background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+   .txt-couple {
+    font-family: Kh Muol Pali;
+       font-size: 50px;
+   }
+ 
+   .txt-event-date { 
+       font-family: Dangrek;
+       font-size: 50px;
+   }
+
+   .bg-wedding {
+       --tw-bg-opacity: 1;
+       /* background-color: rgb(255 218 185 / var(--tw-bg-opacity)); */
+   }
+
+   .py-6 {
+       padding-top: 40px;
+       padding-bottom: 40px;
+   }
+
+   .invite-box {
+       width: 80%;
+       height: 55px;
+       border: 1px solid #a06a3b;
+       margin: 25px auto;
+       border-radius: 6px;
+   }
+
+
+
+
+   
+
+   .couple {
+       padding: 50px 0;
+       text-align: center;
+   }
+
+   .wedding-title {
+       font-family: 'Moul', serif;
+       color: var(--text-color);
+       font-size: 30px;
+       margin-bottom: 20px;
+   }
+
+   .save-the-date {
+       font-family: 'Fira Code', cursive;
+       font-size: 50px;
+       color: var(--text-color);
+   }
+
+
+
+
+
+   /* Circular Image Style */
+   .couple-img {
+       width: 300px;
+       height: 300px;
+       border-radius: 50%;
+       border: 5px solid #e9c496;
+       object-fit: cover;
+       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   }
+  .couple-img:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 0 8px 25px rgba(103, 69, 69, 0.572);
+}
+.heart{
+    font-size: 100px;
+    text-shadow: 0 25px 28px rgba(200, 162, 148, 117)
+}
+
+
+
+
+   /* Countdown Section */
+   .countdown-box {
+       background-color: #f7e1c1;
+       padding: 40px 20px;
+       border-radius: 10px;
+       margin: 30px 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+   }
+
+   .time-unit {
+       font-size: 2rem;
+       font-weight: bold;
+       display: block;
+       background-color: #cdd3dc;
+        padding: 30px 80px;
+    margin: 20px 44px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   }
+
+
+
+
+
+   /* Map Section */
+   .map-section {
+       /* background-color: #f9dcb3; */
+       padding: 50px 20px;
+   }
+
+   .map-container {
+       border: 8px solid white;
+       border-radius: 10px;
+       overflow: hidden;
+       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+       transition: transform 0.3s ease;
+   }
+
+   .map-container:hover {
+       transform: translateY(-10px);
+   }
+
+   .footer {
+       /* background-color: var(--gold-theme); */
+       padding: 30px;
+       font-size: 0.9rem;
+   }
+
+
+
+ /* Block image area */
+  .img-box {
+      /* width: 400px; */
+      height: 250px;
+      overflow: hidden;
+      /* 🔥 important */
+      border-radius: 12px;
+      cursor: pointer;
+  }
+
+  /* Image */
+  .img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+  }
+
+  /* Hover Zoom */
+  .img-box:hover img {
+      transform: scale(1.15);
+      /* zoom in */}
+
+    
+      .txt-invite, .txt-thank{
+        font-family: Kh Muol Pali;
+        color: #3b6fb6;
+            line-height: 50px;
+       
+
+}
+
+
+/* schedule */
+ .timeline {
+     width: 700px;
+     margin: auto;
+ }
+
+ .item {
+     display: flex;
+     align-items: flex-start;
+     margin-bottom: 25px;
+ }
+
+ .number {
+     width: 50px;
+     height: 50px;
+     background: #cfe0f5;
+     color: #3b6fb6;
+     font-weight: bold;
+     font-size: 30px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 15px;
+     margin-top: 5px;
+ }
+
+ .content {
+     color: #6c8fbf;
+     font-size: 18px;
+ }
+
+ .time {
+     font-weight: bold;
+     color: #7a8aa5;
+     margin-bottom: 5px;
+ }
+
+  .title {
+      text-align: center;
+      color: #d57a00;
+      font-size: 28px;
+      margin-bottom: 20px;
+    font-family: Kh Muol Pali;
+  }
+
+  .subtitle {
+      text-align: center;
+      color: #3b6fb6;
+      font-size: 20px;
+      margin-bottom: 40px;
+  }
+
+        .frame {
+            position: relative;
+            width: 395px;
+        }
+    
+        .frame img {
+            width: 100%;
+            display: block;
+        }
+    
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 48%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: #6b3a20;
+            /* text-align: center; */
+            font-weight: bold;
+        }
+         
