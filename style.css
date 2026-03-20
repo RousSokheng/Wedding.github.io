@@ -21,8 +21,7 @@
       background-position: center;
       background-repeat: no-repeat; 
   }
- 
-
+  
   .main{
     background-color: hsla(207, 36%, 89%, 0.764); box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
@@ -100,7 +99,18 @@
     text-shadow: 0 25px 28px rgba(200, 162, 148, 117)
 }
 
-
+@media only screen and (max-width: 700px) {
+.time-unit {
+        font-size: 2rem;
+        font-weight: bold;
+        display: block;
+        background-color: #0564f3;
+        padding: 16px 0px;
+        margin: 0px 0px;
+        border-radius: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
 
 
    /* Countdown Section */
