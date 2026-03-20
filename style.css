@@ -11,7 +11,7 @@
        
    } */
 
-  body {
+  body {width: 100vh;
         overflow-x: hidden;
       font-family: 'Hanuman', serif;
       background-color: var(--soft-bg);
