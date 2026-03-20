@@ -99,18 +99,20 @@
     text-shadow: 0 25px 28px rgba(200, 162, 148, 117)
 }
 
-@media only screen and (max-width: 401px) {
-.time-unit {
+@media only screen and (min-device-width: 360px) and (max-device-width: 412px) and (orientation: portrait) {
+    /* CSS rules for Samsung A52 */
+    .time-unit {
         font-size: 2rem;
         font-weight: bold;
         display: block;
-        background-color: #0564f3;
+        background-color: #6d1d53;
         padding: 16px 0px;
         margin: 0px 0px;
         border-radius: 20px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 }
+
 
 
    /* Countdown Section */
