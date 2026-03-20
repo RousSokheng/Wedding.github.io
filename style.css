@@ -10,16 +10,25 @@
        color: var(--text-color);
        
    } */
+
   body {
+        overflow-x: hidden;
       font-family: 'Hanuman', serif;
-      /* background-color: var(--soft-bg); */
-      color: var(--text-color);
-      background-image: url("images/background.jpg");
+      background-color: var(--soft-bg);
+      color: var(--text-color); 
+       background-image: url("images/background.jpg");
       background-size: cover;
       background-position: center;
-      background-repeat: no-repeat;
+      background-repeat: no-repeat; 
   }
 
+  .main{
+    max-width: 400px;
+    background-color: hsla(207, 36%, 89%, 0.764); box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+@media (max-width: 350px) {
+ 
+}
    .txt-couple {
     font-family: Kh Muol Pali;
        font-size: 50px;
