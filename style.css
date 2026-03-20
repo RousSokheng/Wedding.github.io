@@ -21,23 +21,8 @@
       background-position: center;
       background-repeat: no-repeat; 
   }
-  @media (max-width: 600px) {
-      .container {
-          width: 100%;
-      }
-  }
-@media (max-width: 800px) {
-        .couple-img {
-                width: 250px;
-                height: 250px;
-                
-            }
-  }
+ 
 
- html,
- body {
-     overflow-x: hidden;
- }
   .main{
     background-color: hsla(207, 36%, 89%, 0.764); box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
