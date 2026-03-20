@@ -11,7 +11,7 @@
        
    } */
 
-  body {width: 100vh;
+  body {
         overflow-x: hidden;
       font-family: 'Hanuman', serif;
       background-color: var(--soft-bg);
@@ -21,9 +21,18 @@
       background-position: center;
       background-repeat: no-repeat; 
   }
+  @media (max-width: 600px) {
+      .container {
+          width: 100%;
+          padding: 10px;
+      }
+  }
 
+ html,
+ body {
+     overflow-x: hidden;
+ }
   .main{
-    max-width: 400px;
     background-color: hsla(207, 36%, 89%, 0.764); box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 @media (max-width: 350px) {
