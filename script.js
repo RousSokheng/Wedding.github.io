@@ -51,4 +51,13 @@ style.innerHTML = `
     }`;
 document.head.appendChild(style);
 
-// </script>
+
+document.addEventListener(
+  "click",
+  function () {
+    const music = document.getElementById("bgMusic");
+    music.muted = false;
+    music.play();
+  },
+  { once: true },
+);
